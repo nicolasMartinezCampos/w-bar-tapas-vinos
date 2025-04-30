@@ -27,9 +27,9 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
   return (
     <html lang="es" className={`${playfair.variable} ${montserrat.variable}`}>
       <body className="bg-stone-950 text-stone-100 min-h-screen flex flex-col">
-        <Navbar />
+          <Navbar />
         <main className="flex-1">{children}</main>
-        <Footer />
+          <Footer />
       </body>
     </html>
   )

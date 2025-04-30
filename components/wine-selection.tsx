@@ -174,16 +174,16 @@ export default function WineSelection() {
                   <h3 className="font-serif text-2xl font-bold text-stone-800 mb-6 border-b border-stone-200 pb-2">
                     {subcategory}
                   </h3>
-                  <motion.div
-                    className="grid grid-cols-1 md:grid-cols-2 gap-8"
-                    initial="hidden"
-                    animate="visible"
-                    variants={{
-                      visible: { transition: { staggerChildren: 0.1 } },
-                    }}
-                  >
+            <motion.div
+              className="grid grid-cols-1 md:grid-cols-2 gap-8"
+              initial="hidden"
+              animate="visible"
+              variants={{
+                visible: { transition: { staggerChildren: 0.1 } },
+              }}
+            >
                     {wineList.map((wine) => (
-                      <motion.div
+            <motion.div
                         key={wine.name}
                         variants={fadeIn}
                         className="bg-white p-6 rounded-lg shadow-sm flex gap-4"
@@ -195,26 +195,26 @@ export default function WineSelection() {
                             fill
                             className="object-contain rounded"
                           />
-                        </div>
-                        <div>
+                </div>
+                <div>
                           <h3 className="font-serif text-xl font-bold mb-1">{wine.name}</h3>
                           <p className="text-stone-500 text-sm mb-2">{wine.do}</p>
                           <p className="text-stone-600 text-sm mb-3">{wine.description}</p>
-                          <div className="flex justify-between">
+                  <div className="flex justify-between">
                             <span className="text-amber-700 font-medium">
                               Botella: {wine.bottlePrice}€
                             </span>
                             <span className="text-amber-700 font-medium">
                               Copa: {wine.glassPrice}€
                             </span>
-                          </div>
-                        </div>
-                      </motion.div>
+                  </div>
+                </div>
+              </motion.div>
                     ))}
-                  </motion.div>
+              </motion.div>
                 </div>
               ))}
-            </TabsContent>
+          </TabsContent>
           ))}
         </Tabs>
       </div>
