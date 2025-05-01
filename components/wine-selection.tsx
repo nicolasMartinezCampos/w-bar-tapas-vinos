@@ -9,6 +9,8 @@ const fadeIn = {
   visible: { opacity: 1, y: 0, transition: { duration: 0.6 } },
 }
 
+const ARS = (valor) => `$${valor.toLocaleString('es-AR')} ARS`;
+
 // Datos estructurados de los vinos
 const wines = {
   tintos: {
@@ -202,10 +204,10 @@ export default function WineSelection() {
                           <p className="text-stone-600 text-sm mb-3">{wine.description}</p>
                   <div className="flex justify-between">
                             <span className="text-amber-700 font-medium">
-                              Botella: {wine.bottlePrice}€
+                              Botella: {ARS(wine.bottlePrice * 1000)}
                             </span>
                             <span className="text-amber-700 font-medium">
-                              Copa: {wine.glassPrice}€
+                              Copa: {ARS(wine.glassPrice * 1000)}
                             </span>
                   </div>
                 </div>

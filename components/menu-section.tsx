@@ -113,6 +113,14 @@ const wineMenu = [
   }
 ]
 
+const formatARS = (precio) => {
+  if (typeof precio === 'string' && precio.includes('€')) {
+    const num = parseFloat(precio.replace('€', ''));
+    return `$${(num * 1000).toLocaleString('es-AR')} ARS`;
+  }
+  return precio;
+};
+
 export default function MenuSection() {
   return (
     <section id="menu" className="py-24 bg-black border-t border-white/10">
@@ -143,7 +151,7 @@ export default function MenuSection() {
                     <div key={item.name} className="space-y-2">
                       <div className="flex justify-between items-start">
                         <h5 className="font-medium text-white">{item.name}</h5>
-                        <span className="text-[#C4A962] font-medium ml-2">{item.price}</span>
+                        <span className="text-[#C4A962] font-medium ml-2">{formatARS(item.price)}</span>
                       </div>
                       <p className="text-sm text-[#8C8C8C]">{item.description}</p>
                     </div>
@@ -174,8 +182,8 @@ export default function MenuSection() {
                           <p className="text-sm text-[#8C8C8C]">{item.description}</p>
                         </div>
                         <div className="text-right">
-                          <div className="text-[#C4A962] font-medium">Bot. {item.price}</div>
-                          <div className="text-sm text-[#8C8C8C]">Copa {item.glass}</div>
+                          <div className="text-[#C4A962] font-medium">Bot. {formatARS(item.price)}</div>
+                          <div className="text-sm text-[#8C8C8C]">Copa {formatARS(item.glass)}</div>
                         </div>
                       </div>
                     </div>
