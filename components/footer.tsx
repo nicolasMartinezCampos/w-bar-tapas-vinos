@@ -34,10 +34,10 @@ export default function Footer() {
           <div>
             <h4 className="font-serif text-lg font-bold mb-4">Horario</h4>
             <ul className="space-y-2 text-[#8C8C8C]">
-              <li>Martes - Jueves: 18:00 - 00:00</li>
-              <li>Viernes - Sábado: 18:00 - 02:00</li>
-              <li>Domingo: 12:00 - 22:00</li>
-              <li>Lunes: Cerrado</li>
+              <li>Lunes a jueves de 20hs. a 00hs.
+              </li>
+              <li>Viernes a sábado de 20hs. a 01hs.</li>
+              <li>Domingo Cerrado</li>
             </ul>
           </div>
 
@@ -55,7 +55,7 @@ export default function Footer() {
         <div className="border-t border-white/10 mt-8 pt-8 text-center text-[#8C8C8C]">
           <p>&copy; {new Date().getFullYear()} W Bar de vinos y tapas. Todos los derechos reservados.</p>
           <div className="mt-2 space-x-4 text-sm">
-            <Link href="/privacy" className="hover:text-[#D4BC7B] transition-colors">
+            <Link href="/privacidad" className="hover:text-[#D4BC7B] transition-colors">
               Política de Privacidad
             </Link>
             <Link href="/terms" className="hover:text-[#D4BC7B] transition-colors">
