@@ -9,7 +9,7 @@ const fadeIn = {
   visible: { opacity: 1, y: 0, transition: { duration: 0.6 } },
 }
 
-const ARS = (valor) => `$${valor.toLocaleString('es-AR')} ARS`;
+const ARS = (valor: number) => `$${valor.toLocaleString('es-AR')} ARS`;
 
 // Datos estructurados de los vinos
 const wines = {
