@@ -26,6 +26,17 @@ export const metadata: Metadata = {
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="es" className={`${playfair.variable} ${montserrat.variable}`}>
+      <head>
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-LVCGEB768Y"></script>
+        <script dangerouslySetInnerHTML={{
+          __html: `
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-LVCGEB768Y');
+          `,
+        }} />
+      </head>
       <body className="bg-stone-950 text-stone-100 min-h-screen flex flex-col">
           <Navbar />
         <main className="flex-1">{children}</main>
