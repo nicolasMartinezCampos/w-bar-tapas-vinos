@@ -55,7 +55,7 @@ export default function Footer() {
         <div className="border-t border-white/10 mt-8 pt-8 text-center text-[#8C8C8C]">
           <p>&copy; {new Date().getFullYear()} W Bar de vinos y tapas. Todos los derechos reservados.</p>
           <div className="mt-2 space-x-4 text-sm">
-            <Link href="/privacy" className="hover:text-[#D4BC7B] transition-colors" target="_blanck">
+            <Link href="/privacy" className="hover:text-[#D4BC7B] transition-colors">
               Política de Privacidad
             </Link>
             <Link href="/terms" className="hover:text-[#D4BC7B] transition-colors">
