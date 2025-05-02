@@ -20,7 +20,7 @@ export default function Footer() {
               <h3 className="font-serif text-2xl font-bold">W Bar</h3>
             </div>
             <p className="text-[#8C8C8C] mb-4">
-              Una experiencia gastronómica única en el corazón de Buenos Aires, donde la tradición se encuentra con la
+              Una experiencia gastronómica única en el corazón de San Isidro, donde la tradición se encuentra con la
               innovación.
             </p>
             <div className="flex space-x-4">
@@ -34,8 +34,7 @@ export default function Footer() {
           <div>
             <h4 className="font-serif text-lg font-bold mb-4">Horario</h4>
             <ul className="space-y-2 text-[#8C8C8C]">
-              <li>Lunes a jueves de 20hs. a 00hs.
-              </li>
+              <li>Lunes a jueves de 20hs. a 00hs.</li>
               <li>Viernes a sábado de 20hs. a 01hs.</li>
               <li>Domingo Cerrado</li>
             </ul>
