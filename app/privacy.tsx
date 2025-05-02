@@ -31,13 +31,13 @@ export default function PrivacyPage() {
       <h2 className="font-bold text-2xl mt-8 mb-2 text-[#C4A962]">5. Seguridad</h2>
       <p className="mb-4">Adoptamos medidas razonables para proteger tu información personal, aunque ningún sistema es completamente seguro.</p>
       <h2 className="font-bold text-2xl mt-8 mb-2 text-[#C4A962]">6. Derechos del usuario</h2>
-      <p className="mb-4">Tienes derecho a acceder, rectificar o eliminar tus datos personales. Para ejercer estos derechos, contáctanos a <a href="mailto:info@wbarbcn.com" className="underline text-[#C4A962]">info@wbarbcn.com</a>.</p>
+      <p className="mb-4">Tienes derecho a acceder, rectificar o eliminar tus datos personales. Para ejercer estos derechos, contáctanos a <a href="mailto:wbardetapasyvinos@gmail.com" className="underline text-[#C4A962]">wbardetapasyvinos@gmail.com</a>.</p>
       <h2 className="font-bold text-2xl mt-8 mb-2 text-[#C4A962]">7. Cambios en la política</h2>
       <p className="mb-4">Nos reservamos el derecho de modificar esta Política de Privacidad en cualquier momento. Los cambios serán publicados en esta página.</p>
       <h2 className="font-bold text-2xl mt-8 mb-2 text-[#C4A962]">8. Contacto</h2>
       <p className="mb-4">Si tienes preguntas sobre esta Política de Privacidad, puedes contactarnos en:</p>
       <ul className="list-disc pl-6 mb-4">
-        <li><strong>Correo electrónico:</strong> <a href="mailto:info@wbarbcn.com" className="underline text-[#C4A962]">info@wbarbcn.com</a></li>
+        <li><strong>Correo electrónico:</strong> <a href="mailto:wbardetapasyvinos@gmail.com" className="underline text-[#C4A962]">wbardetapasyvinos@gmail.com</a></li>
         <li><strong>Dirección:</strong> Av. del Libertador 14658, B1641 Acassuso, Provincia de Buenos Aires, Argentina.</li>
       </ul>
     </section>

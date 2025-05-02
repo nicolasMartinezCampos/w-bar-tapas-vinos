@@ -30,7 +30,7 @@ export default function Home() {
                 </div>
                 <div className="flex items-start">
                   <Mail className="h-6 w-6 text-[#C4A962] mr-4 mt-1 flex-shrink-0" />
-                  <p className="text-[#8C8C8C]">info@wbarbcn.com</p>
+                  <p className="text-[#8C8C8C]">wbardetapasyvinos@gmail.com</p>
                 </div>
                 <div className="flex items-start">
                   <Clock className="h-6 w-6 text-[#C4A962] mr-4 mt-1 flex-shrink-0" />
