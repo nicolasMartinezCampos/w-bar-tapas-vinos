@@ -26,7 +26,7 @@ export default function Home() {
                 </div>
                 <div className="flex items-start">
                   <Phone className="h-6 w-6 text-[#C4A962] mr-4 mt-1 flex-shrink-0" />
-                  <p className="text-[#8C8C8C]">+34 93 123 45 67</p>
+                  <p className="text-[#8C8C8C]">+54 11 3939-5205</p>
                 </div>
                 <div className="flex items-start">
                   <Mail className="h-6 w-6 text-[#C4A962] mr-4 mt-1 flex-shrink-0" />
@@ -35,10 +35,9 @@ export default function Home() {
                 <div className="flex items-start">
                   <Clock className="h-6 w-6 text-[#C4A962] mr-4 mt-1 flex-shrink-0" />
                   <div className="text-[#8C8C8C]">
-                    <p>Martes - Jueves: 18:00 - 00:00</p>
-                    <p>Viernes - Sábado: 18:00 - 02:00</p>
-                    <p>Domingo: 12:00 - 22:00</p>
-                    <p>Lunes: Cerrado</p>
+                    <p>Lunes - Jueves: 20:00 - 00:00</p>
+                    <p>Viernes - Sábado: 20:00 - 01:00</p>
+                    <p>Domingo: Cerrado</p>
                   </div>
                 </div>
               </div>
