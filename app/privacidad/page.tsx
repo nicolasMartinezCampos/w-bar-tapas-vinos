@@ -8,7 +8,7 @@ export default function Privacidad() {
       <h2 className="text-xl font-semibold mt-6 mb-2">1. Responsable del Tratamiento</h2>
       <p className="mb-4"><strong>Identidad:</strong> W Bar de tapas y vinos<br/>
       <strong>Dirección:</strong> [Dirección del bar, Barcelona]<br/>
-      <strong>Correo electrónico:</strong> [Tu email de contacto]</p>
+      <strong>Correo electrónico:</strong>wbardetapasyvinos@gmail.com</p>
       <h2 className="text-xl font-semibold mt-6 mb-2">2. Datos que Recopilamos</h2>
       <p className="mb-4">Recopilamos los siguientes datos personales a través de nuestro sitio web:</p>
       <ul className="list-disc ml-6 mb-4">

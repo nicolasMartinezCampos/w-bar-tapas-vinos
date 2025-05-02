@@ -53,7 +53,6 @@ export default function MenuHighlights() {
                 <div>
                   <div className="flex justify-between items-center mb-2">
                     <h3 className="font-serif text-xl font-bold">Patatas Bravas</h3>
-                    <span className="text-amber-700 font-medium">8€</span>
                   </div>
                   <p className="text-stone-600 text-sm">
                     Patatas crujientes con salsa brava casera y alioli de ajo negro.
@@ -68,7 +67,6 @@ export default function MenuHighlights() {
                 <div>
                   <div className="flex justify-between items-center mb-2">
                     <h3 className="font-serif text-xl font-bold">Croquetas de Jamón</h3>
-                    <span className="text-amber-700 font-medium">9€</span>
                   </div>
                   <p className="text-stone-600 text-sm">Cremosas croquetas de jamón ibérico con panko crujiente.</p>
                 </div>
@@ -81,7 +79,6 @@ export default function MenuHighlights() {
                 <div>
                   <div className="flex justify-between items-center mb-2">
                     <h3 className="font-serif text-xl font-bold">Pulpo a la Brasa</h3>
-                    <span className="text-amber-700 font-medium">16€</span>
                   </div>
                   <p className="text-stone-600 text-sm">
                     Pulpo braseado con puré de patata ahumado y pimentón de la Vera.
@@ -96,7 +93,6 @@ export default function MenuHighlights() {
                 <div>
                   <div className="flex justify-between items-center mb-2">
                     <h3 className="font-serif text-xl font-bold">Gambas al Ajillo</h3>
-                    <span className="text-amber-700 font-medium">14€</span>
                   </div>
                   <p className="text-stone-600 text-sm">
                     Gambas salteadas con ajo, guindilla y aceite de oliva virgen extra.
@@ -111,7 +107,6 @@ export default function MenuHighlights() {
                 <div>
                   <div className="flex justify-between items-center mb-2">
                     <h3 className="font-serif text-xl font-bold">Pan con Tomate</h3>
-                    <span className="text-amber-700 font-medium">5€</span>
                   </div>
                   <p className="text-stone-600 text-sm">
                     Pan de cristal tostado con tomate de rama, aceite de oliva y sal en escamas.
@@ -126,7 +121,6 @@ export default function MenuHighlights() {
                 <div>
                   <div className="flex justify-between items-center mb-2">
                     <h3 className="font-serif text-xl font-bold">Pimientos de Padrón</h3>
-                    <span className="text-amber-700 font-medium">7€</span>
                   </div>
                   <p className="text-stone-600 text-sm">
                     Pimientos de Padrón fritos con sal en escamas y aceite de oliva.
@@ -152,7 +146,6 @@ export default function MenuHighlights() {
                 <div>
                   <div className="flex justify-between items-center mb-2">
                     <h3 className="font-serif text-xl font-bold">Paella de Marisco</h3>
-                    <span className="text-amber-700 font-medium">22€</span>
                   </div>
                   <p className="text-stone-600 text-sm">
                     Arroz con calamares, gambas, mejillones y azafrán. Mínimo 2 personas.
@@ -167,7 +160,6 @@ export default function MenuHighlights() {
                 <div>
                   <div className="flex justify-between items-center mb-2">
                     <h3 className="font-serif text-xl font-bold">Bacalao Confitado</h3>
-                    <span className="text-amber-700 font-medium">19€</span>
                   </div>
                   <p className="text-stone-600 text-sm">
                     Bacalao confitado a baja temperatura con espinacas salteadas y alioli de miel.
@@ -182,7 +174,6 @@ export default function MenuHighlights() {
                 <div>
                   <div className="flex justify-between items-center mb-2">
                     <h3 className="font-serif text-xl font-bold">Secreto Ibérico</h3>
-                    <span className="text-amber-700 font-medium">21€</span>
                   </div>
                   <p className="text-stone-600 text-sm">
                     Secreto ibérico a la parrilla con patatas confitadas y salsa de Pedro Ximénez.
@@ -197,7 +188,6 @@ export default function MenuHighlights() {
                 <div>
                   <div className="flex justify-between items-center mb-2">
                     <h3 className="font-serif text-xl font-bold">Fideuá</h3>
-                    <span className="text-amber-700 font-medium">20€</span>
                   </div>
                   <p className="text-stone-600 text-sm">
                     Fideos finos con sepia, gambas y alioli casero. Mínimo 2 personas.
@@ -223,7 +213,6 @@ export default function MenuHighlights() {
                 <div>
                   <div className="flex justify-between items-center mb-2">
                     <h3 className="font-serif text-xl font-bold">Crema Catalana</h3>
-                    <span className="text-amber-700 font-medium">7€</span>
                   </div>
                   <p className="text-stone-600 text-sm">
                     Crema catalana tradicional con azúcar caramelizado y ralladura de limón.
@@ -238,7 +227,6 @@ export default function MenuHighlights() {
                 <div>
                   <div className="flex justify-between items-center mb-2">
                     <h3 className="font-serif text-xl font-bold">Churros con Chocolate</h3>
-                    <span className="text-amber-700 font-medium">6€</span>
                   </div>
                   <p className="text-stone-600 text-sm">Churros caseros con chocolate caliente espeso.</p>
                 </div>
@@ -251,7 +239,6 @@ export default function MenuHighlights() {
                 <div>
                   <div className="flex justify-between items-center mb-2">
                     <h3 className="font-serif text-xl font-bold">Tarta de Santiago</h3>
-                    <span className="text-amber-700 font-medium">7€</span>
                   </div>
                   <p className="text-stone-600 text-sm">
                     Tarta de almendra tradicional gallega con helado de vainilla.
@@ -266,7 +253,6 @@ export default function MenuHighlights() {
                 <div>
                   <div className="flex justify-between items-center mb-2">
                     <h3 className="font-serif text-xl font-bold">Sorbete de Limón al Cava</h3>
-                    <span className="text-amber-700 font-medium">6€</span>
                   </div>
                   <p className="text-stone-600 text-sm">Refrescante sorbete de limón con cava brut nature.</p>
                 </div>

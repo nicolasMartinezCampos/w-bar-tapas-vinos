@@ -347,7 +347,6 @@ export default function MenuSection() {
             <div key={prod.nombre} className="bg-stone-900 rounded-lg p-6 shadow-md flex flex-col gap-2 border border-[#C4A962]/10">
               <div className="flex items-center mb-2 justify-between w-full">
                 <h3 className="font-serif text-xl font-bold text-white text-left flex-1">{prod.nombre}</h3>
-                <span className="text-[#C4A962] font-semibold text-lg text-right min-w-[90px]">{formatPrice(prod.precio)}</span>
               </div>
               <p className="text-[#8C8C8C] text-sm text-left">{prod.descripcion}</p>
             </div>
@@ -375,7 +374,6 @@ export default function MenuSection() {
               <div key={prod.nombre} className="bg-stone-900 rounded-lg p-6 shadow-md flex flex-col gap-2 border border-[#C4A962]/10">
                 <div className="flex items-center mb-2 justify-between w-full">
                   <h3 className="font-serif text-xl font-bold text-white text-left flex-1">{prod.nombre}</h3>
-                  <span className="text-[#C4A962] font-semibold text-lg text-right min-w-[90px]">{formatPrice(prod.precio)}</span>
                 </div>
               </div>
             ))}

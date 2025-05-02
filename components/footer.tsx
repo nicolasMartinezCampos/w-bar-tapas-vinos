@@ -46,8 +46,8 @@ export default function Footer() {
             <address className="not-italic text-[#8C8C8C] space-y-2">
               <p>Av. del Libertador 14658</p>
               <p>B1641 Acassuso, Provincia de Buenos Aires, Argentina.</p>
-              <p>Teléfono: +541139395205</p>
-              <p>Email: info@wbarbcn.com</p>
+              <p>Teléfono: +54 11 39395205</p>
+              <p>Email: wbardetapasyvinos@gmail.com</p>
             </address>
           </div>
         </div>

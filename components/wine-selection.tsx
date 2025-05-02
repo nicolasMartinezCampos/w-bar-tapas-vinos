@@ -51,8 +51,7 @@ const wines = {
         name: "Montsant",
         do: "D.O. Montsant",
         description: "Coupage mediterráneo con carácter frutal y especiado.",
-        bottlePrice: 26,
-        glassPrice: 5.5,
+       
       }
     ]
   },
@@ -202,14 +201,6 @@ export default function WineSelection() {
                           <h3 className="font-serif text-xl font-bold mb-1">{wine.name}</h3>
                           <p className="text-stone-500 text-sm mb-2">{wine.do}</p>
                           <p className="text-stone-600 text-sm mb-3">{wine.description}</p>
-                  <div className="flex justify-between">
-                            <span className="text-amber-700 font-medium">
-                              Botella: {ARS(wine.bottlePrice * 1000)}
-                            </span>
-                            <span className="text-amber-700 font-medium">
-                              Copa: {ARS(wine.glassPrice * 1000)}
-                            </span>
-                  </div>
                 </div>
               </motion.div>
                     ))}
